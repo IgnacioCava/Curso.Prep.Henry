@@ -270,7 +270,7 @@ function continueStatement(numero) {
       arrayNumeros.push(valor);
     }
   }
-  return arrayNumeros;
+  return arrayNumero;
 }
 
 // No modificar nada debajo de esta línea
