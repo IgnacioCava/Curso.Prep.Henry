@@ -1,6 +1,5 @@
 .divClass {
-    /*text-align: center;*/
-    box-sizing: border-box;
+    text-align: center;
 }
 
 #opaquehack {
@@ -14,7 +13,7 @@
 #full {
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGaxljvJ39xHTUcte4uoD3FPY9hjbRHfu-A&usqp=CAU') no-repeat;/* no-repeat hace que la imagen no se repita en el fondo*/
     background-size: cover;/*Hace que la imagen de fondo cubra todo el fondo*/
-    text-align: center;
+    
     position: static;
     z-index: 0;
     background-attachment: fixed;/*Esta clave hace que la iamgen de fondo siga al scroll*/
