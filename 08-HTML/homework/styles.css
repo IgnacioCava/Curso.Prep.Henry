@@ -1,0 +1,50 @@
+.divClass {
+    /*text-align: center;*/
+    box-sizing: border-box;
+}
+
+#opaquehack {
+    background: white;
+    opacity: 0.3;
+    top: 0; bottom: 0; left: 0; right: 0;/*Hace que el elemento cubra toda la página porque le da 0 margen de cada lado*/
+    position: fixed;
+    z-index: -1;/*Asigna nivel de superposición al elemento en cuestión*/
+}
+
+#full {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpGaxljvJ39xHTUcte4uoD3FPY9hjbRHfu-A&usqp=CAU') no-repeat;/* no-repeat hace que la imagen no se repita en el fondo*/
+    background-size: cover;/*Hace que la imagen de fondo cubra todo el fondo*/
+    text-align: center;
+    position: static;
+    z-index: 0;
+    background-attachment: fixed;/*Esta clave hace que la iamgen de fondo siga al scroll*/
+    
+}
+
+#thirdDiv {
+    width: 500px; 
+    height: 600px; 
+    background-color: snow;
+    padding: 50px; 
+    border: 10px; 
+    border-color: orange; 
+    border-style: groove;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#spanId {
+    font-size: 18px; 
+    margin: 50px;
+}
+
+img {
+    width: 400px;
+    display: flex;
+}
+
+h1 {
+    color: darkblue;
+}
