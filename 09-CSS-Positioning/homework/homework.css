@@ -38,6 +38,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     position: fixed;
     top:0px;
     left:0px;
+    z-index: 1;
 }
 
 
@@ -58,6 +59,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 }
 
 #ejercicioSiete {
+    position: relative;
     display:flex;
     flex-direction: column-reverse;
     align-items: space-around;
